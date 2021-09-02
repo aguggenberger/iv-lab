@@ -4,4 +4,4 @@ Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/aguggenberger/iv-lab/m
 
 cd C:\inetpub\wwwroot\uploads\
 
-.\simulation.exe
+.\simulation.exe --console
